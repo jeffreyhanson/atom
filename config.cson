@@ -1,0 +1,44 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "linter-lintr"
+    ]
+  "bracket-matcher":
+    autocompleteBrackets: false
+    highlightMatchingLineNumber: true
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+      "autocomplete-plus"
+    ]
+    telemetryConsent: "no"
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 18
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "ed10546c-7dd5-4403-947c-fc56a65b3d00"
+  "linter-lintr":
+    executablePath: "/opt/R/R-3.6.1/bin/R"
+  "linter-ui-default":
+    panelHeight: 204
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.md"
+      "text.tex.latex"
+      "source.r"
+    ]
+    locales: [
+      "en-US"
+    ]
+  welcome:
+    showOnStartup: false
